@@ -26,15 +26,15 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide
 
 …or create a new repository on the command line
 
-echo "# devisemailer" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin git@github.com:DBram/devisemailer.git
-git push -u origin master
+## echo "# devisemailer" >> README.md
+## git init
+## git add README.md
+## git commit -m "first commit"
+## git remote add origin git@github.com:DBram/devisemailer.git
+## git push -u origin master
 
 
-…or push an existing repository from the command line
+## …or push an existing repository from the command line
 
-git remote add origin git@github.com:DBram/devisemailer.git
-git push -u origin master
+## git remote add origin git@github.com:DBram/devisemailer.git
+## git push -u origin master
