@@ -1,4 +1,4 @@
-
+<% if current_user %>
 
 <footer class="footer-distributed">
 
@@ -43,3 +43,34 @@
 	</div>
 
 </footer>
+
+<% else %>
+
+<footer class="footer-distributed navbar-fixed-bottom">
+
+	<div class="footer-right">
+
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		<a href="#"><i class="fa fa-linkedin"></i></a>
+		<a href="#"><i class="fa fa-github"></i></a>
+
+	</div>
+
+	<div class="footer-left">
+
+		<p class="footer-links">
+
+			·
+			<%= link_to "Contact Us", pages_contact_path, class: "page-scroll" %>	
+			·
+			<%= link_to "About Us", pages_about_path, class: "page-scroll" %>	
+			·
+
+		</p>
+
+    </div>
+
+</footer>
+
+<% end %>
